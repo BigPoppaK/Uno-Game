@@ -5,7 +5,7 @@ public class Card {
     private int value;
     private String color, name;
     private List<String> cardNames = new ArrayList<>(List.of("Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Skip","Reverse","Draw 2","Wild","Wild Draw4"));
-    private List<Integer> cardValue = new ArrayList<>(List.of(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15));;
+    private List<Integer> cardValue = new ArrayList<>(List.of(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14));;
     private List<String> COLORS = new ArrayList<>(List.of("Blue","Red","Green","Yellow"));
     
     public Card(){
